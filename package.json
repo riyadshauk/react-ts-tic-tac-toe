@@ -1,0 +1,28 @@
+{
+  "name": "react-ts-tic-tac-toe",
+  "version": "1.0.0",
+  "description": "A port of the canonical React Tic-Tac-Toe example, using TypeScript ^2.9.2 with React ^16.4.1, bundled with Webpack ^4.13.0.",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=TEST TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' mocha -r ts-node/register src/**/*.spec.ts",
+    "start": "webpack --config webpack.config.js"
+  },
+  "author": "Riyad Shauk",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.3",
+    "@types/react": "^16.4.5",
+    "@types/react-dom": "^16.0.6",
+    "awesome-typescript-loader": "^5.2.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "source-map-loader": "^0.2.3",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2",
+    "webpack": "^4.13.0",
+    "webpack-cli": "^3.0.8"
+  }
+}
